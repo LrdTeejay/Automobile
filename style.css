@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+header{
+    padding: 3em 0;
+    background-color: yellow;
+    width: 100%;
+    font-size: .4rem;
+}
+.subhd{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subhd h2{
+    color: yellow;
+    font-size: medium;
+    font-family: fantasy;
+    font-weight: 900;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin: 0em .5em;
+}
+.show{
+    background-image: url(pic.jpeg);
+    height: max-content;
+    padding: 25% 25%;
+    background-size: contain;
+}
+.show-body{
+    border: 5px solid white;
+    padding: 0 1em;
+    color: white;
+    font-size: .5rem;
+}
+.show-body h3{
+    margin: 2em 0;
+    text-align: center;
+    color: yellow;
+    font-size: 1.2rem;
+} 
+.show-body h4{
+    text-align: center;
+    margin: 3em 1em;
+    border: 3px solid yellow;
+    padding: .5em;
+}
+.sect{
+    display: flex;
+    margin:5em 1em;
+}
+section{
+    margin: 2%;
+    width: 30%;
+    text-align: center;
+}
+hr{
+    margin: 0 2em;
+    background-color: yellow;
+    padding: .1em;
+}
+.welcome{
+    margin: 1em 3em;
+    text-align: center;
+    font-weight: bolder;
+}
+.color{
+  background-color: yellow;
+  padding: 1em;
+}
+.hr2{
+    margin: 15% 40%;
+    background-color: yellow;
+    padding: .1em;
+}
+.hr3{
+    margin: 5% 45%;
+    background-color: black;
+    padding: .1em;
+}
+.note{
+    margin: 5em 1em;  
+    font-size: .8rem;  
+}
+.note2{
+    margin: 5em 3em;  
+    font-size: .8rem;  
+}
+.find{
+    text-align: center;
+    padding: .5em;
+    border: 2px solid yellow;
+    margin: 5% 35%;
+}
+.keys{
+    background-image:url('/picone1.jpeg'); 
+    padding: 2em;    
+    color: white;
+    background-size: contain;
+}
+.keys h4{
+    text-align: center;
+}
+.keys hr{
+    margin: 15% 48%;
+    background-color: yellow;
+    padding: .1em;
+}
+.keys h3{
+    text-align: center;
+    padding: .5em;
+    border: 2px solid yellow;
+    margin: 2% 35%;
+}
+.offers {
+    background-image: url('/picfour.jpeg');
+    padding: 1em;    
+    color: white;
+     background-size: cover;
+     background-color: yellow;
+}
+.offers h2,h3,h4{
+    text-align: center;
+    margin: 7em 0;
+}
+.offers h3{
+    padding: .5em;
+    border: 2px solid yellow;
+    margin: 2% 35%;
+}
+.number{
+    display: flex;
+    padding: 1em;
+    background-image: url('/pictwo.jpeg');
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+figure{
+    width: 25%;
+    margin: 40% 5%;
+}
+.number h1{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.number p{
+    font-size: .6rem;
+}
+.reason{
+   background-image: url('/picthree.jpeg');
+    color: white;
+    padding: 15% 20%;
+    background-size: contain;
+}
+.reason h3{
+    font-weight: bold;
+    margin: 0;
+}
+.reason hr{    
+    margin: 8% 40%;
+    background-color: yellow;
+    padding: .1em;
+}
+.reason h4{
+    text-align: justify;
+    margin: 45% 0;
+    color: yellow;
+}
+.tag{
+    margin: 40% 0;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 500,
+  'GRAD' -30,
+  'opsz' 20
+}
+#icon{
+ font-size:18px;
+}
+span{
+  float: left;
+}
+#flower{
+  color: yellow;
+   font-size: 1.3em;
+  padding:0 .5em;
+}
+#design{
+  color: orange;
+  fill: 0;
+  margin: 0 45%;
+  font-size: 30px;
+}
+@media (max-width:400px){
+  section{
+    margin: 10% 1%;
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.sect{
+    flex-direction: column;
+    margin:4em 1em;
+}
+}
+h5{
+  text-align: center;
+  color: black;
+  font-weight: bolder;
+}
+.copy{
+  background-color: yellow;
+  width: 100%;
+  height: max-content;
+}
